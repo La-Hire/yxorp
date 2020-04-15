@@ -6,13 +6,13 @@
   "version": "0.1.0",
 
   "icons": {
-    "48": "icons/block.svg",
-    "96": "icons/block.svg"
+    "48": "icons/yxorp.svg",
+    "96": "icons/yxorp.svg"
   },
 
   "browser_specific_settings": {
     "gecko": {
-      "strict_min_version": "56.0a1"
+      "strict_min_version": "60.0"
     }
   },
 
