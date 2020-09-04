@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "yxorp",
   "description": "A simple open source automatic proxy selector.",
-  "version": "0.1.0",
+  "version": "0.1.2",
 
   "icons": {
     "48": "icons/yxorp.svg",
