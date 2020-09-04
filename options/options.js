@@ -3,7 +3,7 @@ const configTextArea = document.querySelector("#config");
 // Store the currently selected settings using browser.storage.local.
 function storeSettings() {
   let config = configTextArea.value;
-  browser.storage.local.set({
+  browser.storage.sync.set({
     config: config
   });
 }
@@ -19,7 +19,7 @@ function onError(e) {
 }
 
 // On opening the options page, fetch stored settings and update the UI with them.
-browser.storage.local.get().then(updateUI, onError);
+browser.storage.sync.get().then(updateUI, onError);
 
 // Whenever the contents of the textarea changes, save the new values
 configTextArea.addEventListener("change", storeSettings);
